@@ -10,10 +10,10 @@ if ($result !== null) {
     exit($result);
 }
 
-$from = "$dir/../vendor/phalcon/devtools/ide/3.4.5";
-$to = "$dir/../output";
+$from = "$dir/../vendor/phalcon/devtools/ide/3.4.5/Phalcon";
+$to = "$dir/..";
 
-$result = shell_exec("rm -r $to");
+$result = shell_exec("rm -r $to/Phalcon");
 if ($result !== null) {
     echo "Fail run rm" . PHP_EOL;
     exit($result);
