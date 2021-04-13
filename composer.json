@@ -9,6 +9,9 @@
             "email": "usa.intsashka@gmail.com"
         }
     ],
+    "scripts": {
+        "generation": "php7.3 src/generator.php"
+    },
     "require": {},
     "require-dev": {
         "php": "7.3",
