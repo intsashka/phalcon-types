@@ -1,5 +1,6 @@
 {
     "name": "intsashka/phalcon-types",
+    "version": "1.0.0",
     "description": "type for phalcon",
     "type": "library",
     "license": "BSD-3-Clause",
